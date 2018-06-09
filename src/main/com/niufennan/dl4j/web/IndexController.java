@@ -9,7 +9,7 @@ public class IndexController {
     @ResponseBody
     @RequestMapping("/index")
     public String home(){
-        //System.out.println("aaaaaaaaaa====================");
+        System.out.println("aaaaaaaaaa====================");
         return "hello world";
     }
 }
